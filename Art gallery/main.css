@@ -1,0 +1,213 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0%;
+    border: 0px;
+}
+
+.navbar {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    background-color: #000000;
+    padding-top: 25px;
+    margin-bottom: 90px;
+}
+
+.navbar img {
+    order: 1;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.navbar a {
+    order: 2;
+    color: #BAFF39;
+    padding-left: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    /* Add this line */
+}
+
+.navbar a:hover {
+    color: #f6ffeb;
+}
+
+button {
+    order: 2;
+    /* This will place the button on the right */
+    margin-left: 10px;
+    /* Adjust the margin as needed to move the button to the right */
+    text-align: center;
+    font-size: 20px;
+
+    background-color: #BAFF39;
+    color: #000;
+    height: 65px;
+    width: 155px;
+    border: none;
+    margin-left: 350px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.background-img {
+    width: 100%;
+    height: 85vh;
+}
+
+.contact-form {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+
+    /* Increase the width as needed, for example, 80% */
+    width: 99%;
+
+    align-items: center;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid black; */
+
+    padding: 20px;
+
+    /* Adjust the maximum width as per your requirements */
+    max-width: 900px;
+    /* Set a maximum width if desired */
+}
+
+.two-butn-1,
+.two-butn-2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    top: 90%;
+    width: 90px;
+    height: 40px;
+    background-color: #BAFF39;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.two-butn-1 {
+    left: 35%;
+}
+
+.two-butn-1,
+.two-butn-2,
+a {
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.two-butn-2 {
+    left: 47%;
+}
+
+.two-butn-1:hover,
+.two-butn-2:hover {
+    background-color: #94D63E;
+}
+
+
+
+
+
+
+
+.container-z {
+    position: relative;
+    width: 100%;
+}
+
+.background-img {
+    width: 100%;
+    height: 85vh;
+}
+
+.contact-form-z {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    /* Adjust the width as per your requirements */
+    max-width: 400px;
+    /* Set a maximum width if desired */
+}
+
+.contact-form-z h2 {
+    padding-left: 55px;
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+.form {
+    width: 300px;
+    align-items: center;
+}
+
+
+
+.formbox {
+    padding: 10px;
+    width: 95%;
+    border: none;
+    outline: none;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.submitbutton {
+    padding: 10px 20px;
+    margin-left: 39%;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 20px;
+
+}
+
+::placeholder {
+    color: whitesmoke;
+    opacity: 0.7;
+}
